@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam"iyah Ranting NU Kedungpeluk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- ini adalah header -->
+        <div class="kepala">
+            <img src="Gambar/logo.png" width="200px">
+            <p>JAMIYAH NAHDLATUL ULAMA RANTING KEDUNGPELUK</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="suspeng.html">susunan pengurus</a>
+                <ul>
+                    <li><a href="sp1.html">masa khidmat 1</a></li>
+                    <li><a href="sp2.html">masa khidmat 2</a></li>
+                    <li><a href="sp3.html">masa khidmat 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">program kerja</a>
+                <ul>
+                    <li><a href="#">pengurus</a>
+                        <ul>
+                            <li><a href="#">16-21</a></li>
+                            <li><a href="#">16-21</a></li>
+                            <li><a href="#">16-21</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">lazisnu</a>
+                        <ul>     
+                            <li><a href="#">gak tau 1</a></li>
+                            <li><a href="#">gak tau 2</a></li>
+                            <li><a href="#">gak tau 3</a></li>                           
+                        </ul>
+                    </li>
+                    <li><a href="#">minyak</a>
+                        <ul>
+                            <li><a href="#">gak tau 4</a></li>
+                            <li><a href="#">gak tau 5</a></li>
+                            <li><a href="#">gak tau 6</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li ><a href="#">AD/ART</a>
+                <ul>
+                    <li><a href="#">muktamar jombang</a></li>
+                    <li><a href="#">muktamar lampung</a></li>
+                </ul>
+            </li>
+            <li><a href="foto_kegiatan.html">foto kegiatan</a></li>
+        </ul>
+    </nav>
+
+    <div class="berita">
+            <p>Jadwal Kegiatan Rutinan</p>
+        
+        <div class="jadwal">
+            <p>JADWAL TAHLILAN 2022</p>
+        </div>
+        
+    </div>
+
+    <div class="gambar">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- slide gambar -->
+                <div class="slide first">
+                    <img src="gambar/foto 1.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="gambar/foto 2.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="gambar/foto 3.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="Gambar/foto 4.jpg">
+                </div>
+                <!-- otomatis -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!-- manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn "></label>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4){
+                counter = 1
+            }
+        },5000)
+    </script>
+</body>
+</html>
