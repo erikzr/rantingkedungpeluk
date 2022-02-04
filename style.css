@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+/*CSS HEADER*/
 header{
-    background: linear-gradient(130deg,rgb(60, 201, 60),rgb(5, 87, 5), rgb(37, 218, 37), rgb(6, 68, 6),rgb(23, 241, 23));
+    background: linear-gradient(130deg,rgb(60, 201, 60),rgb(165, 204, 165), rgb(37, 218, 37), rgb(124, 192, 124),rgb(23, 241, 23));
     background-size: 400% 400%;
     animation: BackgroundGradient 120s ease infinite;
     border-radius: 20px;
@@ -18,21 +20,23 @@ header{
 
 .kepala{
   width: 550px;
-  padding: 35px;
+  padding: 30px;
   background: none;
   color: white;
   margin: 0 auto;
 }
 
 .kepala img{
-    margin-top: -50px;
+    margin-top: -30px;
     float: left;
 }
 .kepala p{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
 }
+/*AKHIR CSS HEADER*/
 
+/*CSS MENU SIDE*/
 nav{ 
     margin-top: 10px;
     width: 200px;
@@ -43,7 +47,9 @@ nav ul{
 	width: 200px;
 	list-style: none;
     position: absolute;
-	background: blanchedalmond; 
+    background: linear-gradient(130deg,rgb(60, 201, 60),rgb(165, 204, 165), rgb(37, 218, 37), rgb(124, 192, 124),rgb(23, 241, 23));
+    background-size: 400% 400%;
+    animation: BackgroundGradient 120s ease infinite;
 	border-radius: 10px;
 }
 
@@ -55,7 +61,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
     padding: 10px 30px;
-    height: 80px;
+    height: 65px;
     transition: .5s ease;
 }
 
@@ -70,7 +76,9 @@ nav ul ul  {
     left: 200px;
     width: 200px;
     top: 0;
-    background: blanchedalmond;    
+    background: linear-gradient(130deg,rgb(60, 201, 60),rgb(5, 87, 5), rgb(37, 218, 37), rgb(6, 68, 6),rgb(23, 241, 23));
+    background-size: 400% 400%;
+    animation: BackgroundGradient 120s ease infinite;  
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0,  .1);
     display: none;
@@ -88,7 +96,9 @@ nav ul ul li{
     position: relative;
     display: initial;
 }
+/*AKHIR MENU SIDE*/
 
+/*CSS JADWAL*/
 .berita{
     width: auto;
     margin-left: 210px;
@@ -102,26 +112,27 @@ nav ul ul li{
     margin-top: 0px;
     border-bottom: solid;
 }
-.jadwal{
-    margin: 10px;
+.jadwal ul{
+    margin: 10px 0px;
 }
-.jadwal > a{
+.jadwal ul li{
+    display: inline-block;
+    margin: 0px 70px;
+    width: 200px;
+}
+.jadwal ul li a{
     text-decoration: none;
-}
-.jadwal a p:hover{
-    background: #40d3dc;
     color: black;
-}
-.jadwal > a >p{
-    width: 150px;
-    margin: 5px;
-    text-align: center;
-    background: rgb(54, 54, 54);
-    color: white;
-    border-radius: 10px;
-    padding: 5px;
+    margin: 25px;
+    padding: 1px;
 }
 
+.jadwal ul li > p{
+    color: rebeccapurple;
+    margin-top: 5px;
+}
+
+/* CSS SLIDER */
 .gambar{
     margin-top: 380px;
     padding: 0;
