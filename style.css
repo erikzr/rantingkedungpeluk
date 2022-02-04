@@ -105,7 +105,14 @@ nav ul ul li{
 .jadwal{
     margin: 10px;
 }
-.jadwal > p{
+.jadwal > a{
+    text-decoration: none;
+}
+.jadwal a p:hover{
+    background: #40d3dc;
+    color: black;
+}
+.jadwal > a >p{
     width: 150px;
     margin: 5px;
     text-align: center;
