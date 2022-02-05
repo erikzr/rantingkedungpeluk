@@ -8,8 +8,6 @@ header{
     background: linear-gradient(130deg,rgb(60, 201, 60),rgb(165, 204, 165), rgb(37, 218, 37), rgb(124, 192, 124),rgb(23, 241, 23));
     background-size: 400% 400%;
     animation: BackgroundGradient 120s ease infinite;
-    border-radius: 20px;
-    margin: 2px 5px;
 }
 
 @keyframes BackgroundGradient {
