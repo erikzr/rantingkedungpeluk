@@ -96,9 +96,18 @@ nav ul ul li{
     position: relative;
     display: initial;
 }
+.kosong1{
+    opacity: 1%;
+}
+.kosong4{
+    opacity: 1%;
+}
+.kosong3{
+    opacity: 1%;
+}
 /*AKHIR MENU SIDE*/
 
-/*CSS JADWAL*/
+/*CSS BERITA*/
 .berita{
     width: auto;
     margin-left: 210px;
@@ -132,9 +141,46 @@ nav ul ul li{
     margin-top: 5px;
 }
 
+.saldo {
+    background: rgb(211, 211, 211);
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 26px;
+
+}
+.saldo ul li{
+    display: inline-block;
+    margin: 0px 60px;
+    padding: 50px 0px;
+    width: 200px;
+    text-align: center;
+}
+.saldo ul li a{
+    text-decoration: none;
+}
+
+.saldo ul li > p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*AKHIR CSS BERITA*/
+
+/*CSS NB*/
+.nb p{
+    margin-left: 239px;
+}
+/*AKHIR CSS NB*/
+
 /* CSS SLIDER */
 .gambar{
-    margin-top: 380px;
+    margin-top: 1px;
     padding: 0;
     height: 100vh;
     display: flex;
